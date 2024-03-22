@@ -1,0 +1,50 @@
+.alldatatable .css-1lf2ej3-MuiPaper-root-MuiAlert-root {
+  background-color: #efefef;
+}
+.alldatatable .css-1h2ots1-MuiTableRow-root:hover td {
+  background-color: #e7e7e7;
+}
+.alldatatable
+  .css-18c75ho-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active
+  .MuiTableSortLabel-icon {
+  color: #418fde;
+}
+.alldatatable svg:not(:root) {
+  color: #495057;
+}
+.alldatatable .css-1oykyzv-MuiButtonBase-root-MuiChip-root {
+  background-color: #418fde;
+}
+.css-1oykyzv-MuiButtonBase-root-MuiChip-root .MuiChip-deleteIcon:hover,
+.css-1oykyzv-MuiButtonBase-root-MuiChip-root .MuiChip-deleteIcon:active {
+  color: #fff;
+}
+.css-1oykyzv-MuiButtonBase-root-MuiChip-root .MuiChip-deleteIcon svg {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.alldatatable
+  .MuiTableRow-root.MuiTableRow-head.css-vv34gr-MuiTableRow-root
+  th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.alldatatable hr:before {
+  width: 0 !important;
+}
+.css-1b6zum-MuiPaper-root-MuiAlert-root{
+    background-color: rgb(239, 239, 239);
+}
+.alldatatable .MuiButtonBase-root.Mui-disabled.MuiIconButton-root.Mui-disabled.MuiIconButton-sizeMedium.css-10062bc-MuiButtonBase-root-MuiIconButton-root{
+    display: none;
+}
+.graph-box{
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 8px;
+}
+.dashboard-table{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 8px;
+}

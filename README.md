@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# PMP UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Front-end implementation, built with React, Redux, JavaScript, and CSS.
 
-## Available Scripts
+## Project Status
 
-In the project directory, you can run:
+The MVP is include following pages.
+    1) Summary Page: it shows summary of events, it is includes 3 tables named
+        a.) Active Event: shows newly generated events.
+        b.) Pi Exceptions - Action Taken: shows closed or completed events.
+        c.) Open/Snoozed Event - shows events snoozed by CMAs.
 
-### `npm start`
+    2) Dashboard Page: It will show all the exceptions generated in PI System and Whether that exceptions present in PMP or not.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    3) History Page: It shows all the Exceptions which is Closed by CMAs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    4) Exception Detail Page: It allows CMAs to update status of Perticular Exceptions.there are multiple tabs as listed below,
+        a.) PI Vision: PI Vision Screen of that perticular exception.
+        b.) Management: Allow CMAs to take action and to add comments.
+        c.) REMS Watchlist: Display all rems events.
+        d.) Excption History: Show hisory of generated exceptions.
+        e.) Work Order: All the work orders generated for the exception.
+        f.) Machine Events: Machine Events generated for the exception.
+        g.) Oil Analysis: Oil Analysis data.
+        h.) Manual Con-Mon Data: Added ConMon data.
+    
+    - User can also add recommendation for the exception. 
 
-### `npm test`
+    5) Fleet Detail Page: Shows all the exceptions generated on that perticular Fleet.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Setup Instructions
 
-### `npm run build`
+## Example
+
+Clone down this repository. You will need `node`, `npm` and `yarn` installed globally on your machine.  
+
+Installation:
+
+`npm install` or `yarn` 
+
+To Start Server:
+
+`npm start`
+
+To Visit App:
+
+[http://localhost:3000/summary](http://localhost:3000/summary)
+
+ `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
+
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## _.env.*_ - File Support
 
-### `npm run eject`
+Config for each environment is stored in a separate file.
+- .env.dev: Development environment
+- .env.uat: UAT environment
+- .env.prod: Production environment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This feature is dependents on env-cmd package. Following block of code shows how to use it.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+```js
+"build:dev": "env-cmd -f .env.dev react-scripts build"
+```

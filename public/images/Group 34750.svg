@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_34750" data-name="Group 34750" transform="translate(-1043 -203)">
+    <rect id="Rectangle_13793" data-name="Rectangle 13793" width="24" height="24" transform="translate(1043 203)" fill="none"/>
+    <path id="warning" d="M2253.711,819h-2v-2h2Zm0-4h-2v-5h2Z" transform="translate(-1197.711 -597.975)" fill="#f1c400"/>
+    <path id="warning-2" data-name="warning" d="M2244.578,820.975H2260.8a.882.882,0,0,0,.789-1.332l-8.154-14.2a.829.829,0,0,0-1.491,0l-8.154,14.2A.946.946,0,0,0,2244.578,820.975Z" transform="translate(-1197.711 -597.975)" fill="none" stroke="#f1c400" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+.fault-tab-custom-select{
+    background: #e7e7e7 !important;
+    position: absolute !important;
+    bottom: 10px !important;
+    left: 0 !important;
+    height: 26px !important;
+    width: calc(100% - 12px) !important;
+    margin: 0 auto !important;
+    right: 0 !important;
+    border: 0;
+    border-radius: 50px;
+}
+
+.fault-tab-custom-select select{
+    height: 26px;
+    padding-top: 0;
+    padding-right: 15px;
+    padding-bottom: 0;
+    padding-left: 15px;
+}
+.fault-tab .responsive-table table tr td{
+        text-wrap: wrap;
+}

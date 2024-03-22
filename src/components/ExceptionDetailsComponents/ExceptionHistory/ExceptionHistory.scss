@@ -1,0 +1,17 @@
+#rems-conmon-table{
+
+    td{
+        white-space: inherit;
+    }
+}
+
+.history-tab{
+    .responsive-table.data-table-div{
+        max-height: 653px;
+        height: 70vh;
+        table {
+            min-width: 1000px;
+        }
+    }
+
+}

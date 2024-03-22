@@ -1,0 +1,50 @@
+.react-datepicker__input-container {
+	display: block;
+	margin: 0;
+	position: unset !important;
+	background: #f3f3f3;
+	border-radius: 50px;
+	input {
+		height: calc(2.25rem + 2px);
+		padding: 8px 42px 5px 15px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		position: relative;
+		z-index: 1;
+		background: none;
+		line-height: normal;
+		border-radius: 50px;
+		border: 1px solid transparent;
+		cursor: pointer;
+		width: -webkit-fill-available;
+	} 
+} 
+
+.responsive-table.data-table-div-full {
+	&::-webkit-scrollbar {
+		width: 6px;
+		height: 6px;
+	}
+	&::-webkit-scrollbar-track-piece {
+		background: rgba(0, 0, 0, 0.1);
+		border-radius: 16px;
+		width: 10px;
+	}
+	&::-webkit-scrollbar-thumb {
+		background: rgba(0, 0, 0, 0.75);
+		border-radius: 16px;
+	}
+	height: auto;
+	max-height: 68vh !important;
+}
+
+.datepickerbtn .react-datepicker-wrapper .react-datepicker__input-container button{
+	z-index: 99;
+	margin-top: 11px;
+	margin-right: 5px;
+}
+.react-datepicker__close-icon::after{
+	background-color: gray !important;		
+}

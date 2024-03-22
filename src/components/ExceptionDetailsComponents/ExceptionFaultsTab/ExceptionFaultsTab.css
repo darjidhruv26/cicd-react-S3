@@ -1,0 +1,10 @@
+.fault-tab.custom-select{
+    background: #e7e7e7;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    height: 26px;
+    width: calc(100% - 12px);
+    margin: 0 auto;
+    right: 0;
+}

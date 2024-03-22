@@ -1,0 +1,88 @@
+.summery-page-v1 {
+
+
+    .tab-main-content {
+        padding: 0;
+        height: 275px !important;
+    }
+
+
+    .critical-box {
+        &:hover {
+            transform: scale(0.99);
+        }
+    }
+
+    .background-grey {
+        &:hover {
+            background-color: #d6d8db !important;
+        }
+    }
+
+
+    .background-danger {
+        &:hover {
+            background-color: #f5c6cb !important;
+        }
+    }
+
+    .background-success {
+        &:hover {
+            background-color: #c3e6cb !important;
+        }
+    }
+
+    .background-warning {
+        &:hover {
+            background-color: #ffeeba !important;
+        }
+    }
+
+    table.table-striped.dataTable th {
+        border: 0;
+    }
+
+
+    .categorywise-tables .responsive-table {
+        height: 75vh;
+    }
+
+    .related-recommendations .responsive-table {
+        max-height: 250px;
+    }
+
+    .categorywise-tables .responsive-table {
+        &.tooltip {
+            height: 150px;
+        }
+    }
+
+    .table.dataTable th {
+        padding-bottom: 48px;
+        height: auto;
+        line-height: normal;
+        background: #fff;
+    }
+}
+
+
+.popup-table {
+    height: fit-content !important;
+    max-height: 200px;
+}
+
+.color-grey {
+    background-color: #d6d8db !important;
+}
+
+.color-danger {
+    background-color: #f5c6cb !important;
+}
+
+.color-success {
+    background-color: #c3e6cb !important;
+}
+
+.color-warning {
+    background-color: #ffeeba !important;
+}
